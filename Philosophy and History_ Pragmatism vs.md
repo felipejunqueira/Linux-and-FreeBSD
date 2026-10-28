@@ -8,7 +8,7 @@ FreeBSD, born at Berkeley, operates as "The Cathedral". There is a non-negotiabl
 
 At the top of this genealogy rests Plan 9 from Bell Labs. Created by the original inventors of Unix, it attempted to fix its ancestor's sins. Commercially, it failed. Architecturally, it triumphed. It introduced the concept of Namespaces (where each process has its own isolated view of the file tree), the `/proc` filesystem, and the idea of sharing granular process resources without blindly copying them (`rfork`). Plan 9 didn't die; it fragmented its soul and built the logical foundations of what the market now sells packaged under the name "Docker."
 
-# The Truth About "Everythingis a File"
+# The Truth About "Everything is a File"
 
 The Unix maxim "everything is a file" is beautiful in User Space, but upon crossing the boundary into Kernel Space, the architectural truth bifurcates.
 

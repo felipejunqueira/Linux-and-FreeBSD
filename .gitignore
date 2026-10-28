@@ -1,4 +1,5 @@
 # Binaries and object files
+memory_cow
 *.o
 *.obj
 *.exe
